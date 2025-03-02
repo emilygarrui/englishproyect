@@ -2,6 +2,8 @@ html,
 body {
   overflow-x: hidden;
   background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;;
 }
 
 .home {
@@ -49,7 +51,6 @@ body {
   background: #2c2c2c;
   padding: 40px 0;
   margin: 20px 0;
-  border-radius: 10px;
   width: 100%;
 }
 
