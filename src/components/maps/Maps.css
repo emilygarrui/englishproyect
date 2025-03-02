@@ -1,0 +1,7 @@
+.locations-map-container {
+  margin: 10vh auto;
+  width: 60vw;
+  height: 60vh;
+  border-radius: 40px;
+  font-family: sans-serif;
+}

@@ -1,0 +1,112 @@
+/* Estilos del Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c2c2c;
+  padding: 15px 30px;
+  position: relative;
+  z-index: 1001; /* Asegura que el header esté por encima del banner */
+  font-family: sans-serif;
+}
+
+/* Logo */
+.logo img {
+  height: 65px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Texto "GOLDEN DRAM" (solo para tablets) */
+.tablet-title {
+  display: none; /* Oculto por defecto */
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Navegación */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+  color: #d4af37;
+}
+
+/* Botón de Toggle (oculto por defecto) */
+.toggle-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  /* Tablets: Mostrar botón de toggle y texto "GOLDEN DRAM" */
+  .toggle-button {
+    display: block;
+  }
+
+  .tablet-title {
+    display: block; /* Mostrar el texto "GOLDEN DRAM" */
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 80px; /* Ajusta según la altura del header */
+    right: 20px;
+    background: #2c2c2c;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    z-index: 1000; /* Asegura que el menú esté por encima del banner */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  .nav.open {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Móviles: Ocultar el texto "GOLDEN DRAM" */
+  .tablet-title {
+    display: none;
+  }
+}
