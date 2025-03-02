@@ -3,7 +3,6 @@ import "leaflet/dist/leaflet.css";
 import "./Maps.css";
 
 function Maps() {
-  // const position = [28.12804,-15.451524];
   return (
     <>
       <MapContainer className="locations-map-container" center={[25.907783251273163, -80.28219914954504]} zoom={15} scrollWheelZoom={false}>

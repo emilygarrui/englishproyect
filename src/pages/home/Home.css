@@ -1,9 +1,9 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
   background-color: #1a1a1a;
 }
 
-/* Estilos generales */
 .home {
   text-align: center;
   color: white;
@@ -13,7 +13,6 @@ html, body {
   font-family: sans-serif;
 }
 
-/* Banner */
 .banner {
   position: relative;
   background: url("/src/pages/home/images/WhiskyBanner.jpg") no-repeat center center/cover;
@@ -46,7 +45,6 @@ html, body {
   z-index: 1;
 }
 
-/* Historia del Whisky */
 .history {
   background: #2c2c2c;
   padding: 40px 0;
@@ -64,9 +62,9 @@ html, body {
 
 .history-content {
   text-align: center;
-  max-width: 800px; /* Limita el ancho máximo del contenido */
-  margin: 0 auto; /* Centra el contenido */
-  padding: 0 20px; /* Añade un poco de padding en los lados */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .history-content p {
@@ -75,7 +73,6 @@ html, body {
   margin-bottom: 15px;
 }
 
-/* Lista de Whiskies */
 .whisky-list {
   padding: 20px;
 }
@@ -117,7 +114,6 @@ html, body {
   object-fit: cover;
 }
 
-/* Botón para ver más marcas */
 .more-brands {
   margin-top: 30px;
 }
@@ -137,7 +133,6 @@ html, body {
   background: #b88b2e;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .history {
     padding: 20px;
@@ -148,7 +143,7 @@ html, body {
   }
 
   .history-content {
-    padding: 0 15px; /* Ajusta el padding para móviles */
+    padding: 0 15px;
   }
 
   .history-content p {
@@ -158,7 +153,7 @@ html, body {
   .banner {
     padding: 60px 20px;
   }
-  
+
   .grid {
     flex-direction: column;
     align-items: center;

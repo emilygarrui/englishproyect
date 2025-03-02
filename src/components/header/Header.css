@@ -1,4 +1,3 @@
-/* Estilos del Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -6,11 +5,10 @@
   background: #2c2c2c;
   padding: 15px 30px;
   position: relative;
-  z-index: 1001; /* Asegura que el header esté por encima del banner */
+  z-index: 1001;
   font-family: sans-serif;
 }
 
-/* Logo */
 .logo img {
   height: 65px;
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -21,9 +19,8 @@
   filter: brightness(1.2);
 }
 
-/* Texto "GOLDEN DRAM" (solo para tablets) */
 .tablet-title {
-  display: none; /* Oculto por defecto */
+  display: none;
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
@@ -32,7 +29,6 @@
   transform: translateX(-50%);
 }
 
-/* Navegación */
 .nav ul {
   list-style: none;
   display: flex;
@@ -56,7 +52,6 @@
   color: #d4af37;
 }
 
-/* Botón de Toggle (oculto por defecto) */
 .toggle-button {
   display: none;
   background: none;
@@ -66,27 +61,25 @@
   cursor: pointer;
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
-  /* Tablets: Mostrar botón de toggle y texto "GOLDEN DRAM" */
   .toggle-button {
     display: block;
   }
 
   .tablet-title {
-    display: block; /* Mostrar el texto "GOLDEN DRAM" */
+    display: block;
   }
 
   .nav {
     display: none;
     position: absolute;
-    top: 80px; /* Ajusta según la altura del header */
+    top: 80px;
     right: 20px;
     background: #2c2c2c;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    z-index: 1000; /* Asegura que el menú esté por encima del banner */
+    z-index: 1000;
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 0;
     transform: translateY(-10px);
@@ -105,7 +98,6 @@
 }
 
 @media (max-width: 768px) {
-  /* Móviles: Ocultar el texto "GOLDEN DRAM" */
   .tablet-title {
     display: none;
   }

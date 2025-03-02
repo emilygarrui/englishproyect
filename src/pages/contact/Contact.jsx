@@ -19,7 +19,7 @@ function Contact() {
           <button type="submit">Enviar</button>
         </form>
       </div>
-        <Maps />
+      <Maps />
     </div>
   );
 }

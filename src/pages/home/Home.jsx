@@ -11,12 +11,10 @@ const whiskies = [
 function Home() {
   return (
     <div className="home">
-      {/* Banner */}
       <section className="banner">
         <h1>GOLDEN DRAM</h1>
       </section>
 
-      {/* Historia del Whisky */}
       <section className="history">
         <h2>Un poco de historia</h2>
         <div className="history-content">
@@ -29,7 +27,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Lista de Whiskies */}
       <section className="whisky-list">
         <h2>Nuestras Recomendaciones</h2>
         <div className="grid">
@@ -43,7 +40,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Botón para ver más marcas */}
       <div className="more-brands">
         <Link to="/brand-list" className="btn">Ver más marcas conocidas</Link>
       </div>

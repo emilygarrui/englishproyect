@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Sección de enlaces rápidos */}
+
         <div className="footer-links">
           <h3>Enlaces</h3>
           <ul>
@@ -16,7 +16,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Sección de redes sociales con FontAwesome */}
         <div className="footer-social">
           <h3>Síguenos</h3>
           <div className="social-icons">
@@ -26,7 +25,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Información legal */}
         <div className="footer-info">
           <h3>Legal</h3>
           <ul>
@@ -36,7 +34,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="footer-bottom">
         <p>© 2025 Golden Dram. Todos los derechos reservados.</p>
       </div>
