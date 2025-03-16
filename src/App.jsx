@@ -7,6 +7,8 @@ import AlcoholBrandList from './pages/alcohol-brand-list/AlcoholBrandList'
 import Contact from './pages/contact/Contact'
 import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy'
 import TermsAndConditions from './pages/terms-and-conditions/TermsAndConditions'
+import WhiskyList from './pages/whisky-list/WhiskyList'
+import RSSPage from './pages/rss-page/RSSPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/brand-list" element={<AlcoholBrandList />} />
+        <Route path="/whisky-list" element={<WhiskyList />} />
+        <Route path="/rss" element={<RSSPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />

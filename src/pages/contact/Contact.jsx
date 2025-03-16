@@ -1,4 +1,4 @@
-import Maps from "../../components/Maps/Maps";
+import Maps from "../../components/maps/Maps";
 import "./contact.css";
 
 function Contact() {

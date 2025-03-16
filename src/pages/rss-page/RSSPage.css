@@ -1,0 +1,43 @@
+.rss-page {
+  text-align: center;
+  color: white;
+  background-color: #1a1a1a;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.rss-page h1 {
+  font-size: 2.5rem;
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.rss-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.rss-link {
+  display: inline-block;
+  background: #d4af37;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.rss-link:hover {
+  background: #b88b2e;
+}
+
+@media (max-width: 600px) {
+  .rss-page h1 {
+    font-size: 2rem;
+  }
+
+  .rss-page p {
+    font-size: 1rem;
+  }
+}
