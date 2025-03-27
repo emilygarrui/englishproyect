@@ -1,43 +1,83 @@
 .rss-page {
-  text-align: center;
-  color: white;
-  background-color: #1a1a1a;
-  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #ffffff;
   font-family: sans-serif;
+  background-color: #1a1a1a;
 }
 
 .rss-page h1 {
-  font-size: 2.5rem;
+  text-align: center;
   color: #d4af37;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
 
-.rss-page p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
 }
 
-.rss-link {
+.news-card {
+  background: #2c2c2c;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #3a3a3a;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.news-card h3 {
+  color: #d4af37;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.news-card p {
+  color: #dddddd;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.news-card time {
+  display: block;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.read-more {
   display: inline-block;
-  background: #d4af37;
-  color: black;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
+  background-color: #d4af37;
+  color: #1a1a1a;
   text-decoration: none;
-  font-weight: bold;
   border-radius: 5px;
-  transition: background 0.3s;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-.rss-link:hover {
-  background: #b88b2e;
+.read-more:hover {
+  background-color: #b88b2e;
 }
 
-@media (max-width: 600px) {
-  .rss-page h1 {
-    font-size: 2rem;
+@media (max-width: 768px) {
+  .rss-page {
+    padding: 1rem;
   }
 
-  .rss-page p {
-    font-size: 1rem;
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rss-page h1 {
+    font-size: 2rem;
   }
 }
