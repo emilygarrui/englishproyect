@@ -27,7 +27,7 @@ function Header() {
         <ul>
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/brand-list">Marcas conocidas</Link></li>
-          <li><Link to="/whisky-list">Whisky List</Link></li>
+          <li><Link to="/whisky-list">Favoritos</Link></li>
           <li><Link to="/rss">Noticias</Link></li>
           <li><Link to="/contact">Contacto</Link></li>
         </ul>
