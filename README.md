@@ -6,7 +6,7 @@ Welcome to **Golden Dram**, a modern and elegant website dedicated to whisky ent
 
 ## 🛜 Host
 
-Hosted by firebase:
+Hosted by firebase: https://projectreact-e838d.web.app/
 
 ---
 
