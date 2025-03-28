@@ -4,6 +4,12 @@ Welcome to **Golden Dram**, a modern and elegant website dedicated to whisky ent
 
 ---
 
+## 🛜 Host
+
+Hosted by firebase:
+
+---
+
 ## 🎯 Description
 
 **Golden Dram** is a responsive and visually appealing website designed for whisky lovers. It features three main sections:

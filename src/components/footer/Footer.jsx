@@ -23,7 +23,8 @@ function Footer() {
           <div className="social-icons">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-            <a href="https://x.com/tiburcioCruz" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a href="https://projectreact-e838d.web.app/rss.xml" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-rss"></i></a>
           </div>
         </div>
 

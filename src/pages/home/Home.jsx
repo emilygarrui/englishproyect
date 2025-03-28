@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import "./home.css";
 
 const whiskies = [
-  { id: 1, nombre: "Johnnie Walker", descripcion: "Whisky escocés premium", imagen: "/src/pages/home/images/JohnnieWalker.png" },
-  { id: 2, nombre: "Jack Daniel's", descripcion: "Whisky americano clásico", imagen: "/src/pages/home/images/JackDaniels.jpg" },
-  { id: 3, nombre: "Chivas Regal", descripcion: "Whisky escocés suave y elegante", imagen: "/src/pages/home/images/ChivasRegal.jpg" },
-  { id: 4, nombre: "Dyc", descripcion: "Whisky español suave y aromático", imagen: "/src/pages/home/images/Dyc.png" },
+  { id: 1, nombre: "Johnnie Walker", descripcion: "Whisky escocés premium", imagen: "/home/JohnnieWalker.png" },
+  { id: 2, nombre: "Jack Daniel's", descripcion: "Whisky americano clásico", imagen: "/home/JackDaniels.jpg" },
+  { id: 3, nombre: "Chivas Regal", descripcion: "Whisky escocés suave y elegante", imagen: "/home/ChivasRegal.jpg" },
+  { id: 4, nombre: "Dyc", descripcion: "Whisky español suave y aromático", imagen: "/home/Dyc.png" },
 ];
 
 function Home() {

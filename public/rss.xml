@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+    <title>GOLDEN DRAM</title>
+    <link>https://projectreact-e838d.web.app/</link>
+    <description>Tu lugar de Whisky favorito</description>
+    <item>
+      <title>Fiesta San Patricio 2025 en Madrid</title>
+      <link>https://projectreact-e838d.web.app/rss#item-1</link>
+      <description>Si hay una celebración que no entiende de fronteras, esa es sin duda el Día de San Patricio. Cada 17 de marzo, millones de personas en todo el mundo se visten de verde, alzan sus pintas de Guinness y brindan con buen whisky irlandés en honor al patrón de Irlanda.</description>
+    </item>
+    <item>
+      <title>Tres décadas transformando el agua en whisky</title>
+      <link>https://projectreact-e838d.web.app/rss#item-2</link>
+      <description>Luis García Burgos, director de la destilería Dyc desde 1992, se jubila. Casi la mitad de la historia de la primera marca española le contempla.</description>
+    </item>
+    <item>
+      <title>Exploramos los horizontes del Whisky: Asia y Oceanía</title>
+      <link>https://projectreact-e838d.web.app/rss#item-3</link>
+      <description>Los principios de la destilación (no del whisky) en Asia y Oceanía</description>
+    </item>
+    <item>
+      <title>Yamazaki, La Primera Destilería de Whisky de Japón</title>
+      <link>https://projectreact-e838d.web.app/rss#item-4</link>
+      <description>Descubre los secretos del whisky japonés en una cata inolvidable en Whisky Club Madrid</description>
+    </item>
+    <item>
+      <title>Richard Paterson, maestro destilador: “Madrid huele a whisky”</title>
+      <link>https://projectreact-e838d.web.app/rss#item-5</link>
+      <description>Es una de las narices más selectas del whisky escocés y como maestro destilador ha situado al grupo Whyte y Mackay como quinto productor mundial</description>
+    </item>
+  </channel>
+
+</rss>

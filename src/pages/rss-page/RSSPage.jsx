@@ -8,7 +8,7 @@ function RSSPage() {
       <h1>Últimas Noticias sobre Whisky</h1>
       <div className="news-grid">
         {rssNews.map((news) => (
-          <article key={news.id} className="news-card">
+          <article key={news.id} className="news-card" id={`item-${news.id}`}>
             <h3>{news.title}</h3>
             <p>{news.description}</p>
             <time>{news.date}</time>

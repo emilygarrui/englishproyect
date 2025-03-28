@@ -17,7 +17,7 @@ body {
 
 .banner {
   position: relative;
-  background: url("/src/pages/home/images/WhiskyBanner.jpg") no-repeat center center/cover;
+  background: url("/home/WhiskyBanner.jpg") no-repeat center center/cover;
   padding: 100px 20px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   display: flex;

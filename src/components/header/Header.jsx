@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/home" className="logo">
-        <img src="/src/components/header/images/Logo.png" alt="Golden Dram Logo" />
+        <img src="/header/Logo.png" alt="Golden Dram Logo" />
       </Link>
 
       <div className="tablet-title">
