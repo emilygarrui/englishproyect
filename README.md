@@ -57,5 +57,5 @@ This website has been inspired by:
 
 Here is a picture of the FeedReader Online for the RSS:
 
-(https://github.com/emilygarrui/ReactProject/blob/TerceraEntrega/RSS_FeedReader.png)  
+![RSS Feed in FeedReader Screenshot](https://github.com/emilygarrui/ReactProject/blob/TerceraEntrega/RSS_FeedReader.png)  
 
