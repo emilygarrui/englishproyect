@@ -50,3 +50,12 @@ This project uses the following third-party components and libraries:
 This website has been inspired by:
 
 - http://drymartiniorg.com/el-whisky-origen-tipos-y-cocktails/
+
+---
+
+## 📑 FeedReader
+
+Here is a picture of the FeedReader Online for the RSS:
+
+(https://github.com/emilygarrui/ReactProject/tree/TerceraEntrega/RSS_FeedReader.png)  
+
