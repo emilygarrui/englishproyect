@@ -25,11 +25,9 @@ function Header() {
 
       <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
         <ul>
-          <li><Link to="/">Inicio</Link></li>
-          <li><Link to="/brand-list">Marcas conocidas</Link></li>
-          <li><Link to="/whisky-list">Favoritos</Link></li>
-          <li><Link to="/rss">Noticias</Link></li>
-          <li><Link to="/contact">Contacto</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/brand-list">Recognized Brands</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>

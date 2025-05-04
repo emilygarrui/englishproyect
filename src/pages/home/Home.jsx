@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import "./home.css";
 
 const whiskies = [
-  { id: 1, nombre: "Johnnie Walker", descripcion: "Whisky escocés premium", imagen: "/home/JohnnieWalker.png" },
-  { id: 2, nombre: "Jack Daniel's", descripcion: "Whisky americano clásico", imagen: "/home/JackDaniels.jpg" },
-  { id: 3, nombre: "Chivas Regal", descripcion: "Whisky escocés suave y elegante", imagen: "/home/ChivasRegal.jpg" },
-  { id: 4, nombre: "Dyc", descripcion: "Whisky español suave y aromático", imagen: "/home/Dyc.png" },
+  { id: 1, nombre: "Johnnie Walker", descripcion: "Premium Scottish Whisky", imagen: "/home/JohnnieWalker.png" },
+  { id: 2, nombre: "Jack Daniel's", descripcion: "Classic American Whisky", imagen: "/home/JackDaniels.jpg" },
+  { id: 3, nombre: "Chivas Regal", descripcion: "Smooth and Elegant Scottish Whisky", imagen: "/home/ChivasRegal.jpg" },
+  { id: 4, nombre: "Dyc", descripcion: "Smooth and Aromatic Spanish Whisky", imagen: "/home/Dyc.png" },
 ];
 
 function Home() {
@@ -16,19 +16,18 @@ function Home() {
       </section>
 
       <section className="history">
-        <h2>Un poco de historia</h2>
+        <h2>A bit of history</h2>
         <div className="history-content">
           <p>
-            El whisky, conocido como el <strong>"agua de vida"</strong>, tiene sus raíces en Escocia e Irlanda, donde se destilaba desde el siglo XV. Con el tiempo, esta bebida espirituosa cruzó fronteras, dando origen a estilos únicos como el bourbon estadounidense y el whisky japonés.
-          </p>
+            Whisky, known as the "water of life," originated in Scotland and Ireland, where it was distilled as early as the 15th century. Over time, this spirit transcended borders, giving rise to unique styles such as American bourbon and Japanese whisky.          </p>
           <p>
-            Hoy, el whisky es un símbolo de tradición, maestría y pasión, disfrutado en todo el mundo. Desde las Highlands escocesas hasta los ríos de Kentucky, cada botella cuenta una historia única.
+            Today, whisky is used as a symbol of tradition, craftsmanship, and passion, which is enjoyed worldwide. Each bottle of whisky tells a distinctive story, from the Scottish Highlands to the rivers of Kentucky.
           </p>
         </div>
       </section>
 
       <section className="whisky-list">
-        <h2>Nuestras Recomendaciones</h2>
+        <h2>Our Suggested Selections</h2>
         <div className="grid">
           {whiskies.map((whisky) => (
             <div key={whisky.id} className="whisky-card">
@@ -41,7 +40,7 @@ function Home() {
       </section>
 
       <div className="more-brands">
-        <Link to="/brand-list" className="btn">Ver más marcas conocidas</Link>
+        <Link to="/brand-list" className="btn">View Additional Recognized Brands</Link>
       </div>
     </div>
   );

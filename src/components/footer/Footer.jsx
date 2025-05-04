@@ -7,38 +7,35 @@ function Footer() {
       <div className="footer-container">
 
         <div className="footer-links">
-          <h3>Enlaces</h3>
+          <h3>Links</h3>
           <ul>
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/brand-list">Marcas conocidas</Link></li>
-            <li><Link to="/whisky-list">Favoritos</Link></li>
-            <li><Link to="/rss">Noticias</Link></li>
-            <li><Link to="/contact">Contacto</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/brand-list">Recognized Brands</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
             <li><a href="https://github.com/emilygarrui/ReactProject" target="_blank" rel="noopener noreferrer">GitHub</a></li>
           </ul>
         </div>
 
         <div className="footer-social">
-          <h3>Síguenos</h3>
+          <h3>Follow us</h3>
           <div className="social-icons">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
             <a href="https://x.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-            <a href="https://projectreact-e838d.web.app/rss.xml" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-rss"></i></a>
           </div>
         </div>
 
         <div className="footer-info">
           <h3>Legal</h3>
           <ul>
-            <li><Link to="/privacy-policy">Política de Privacidad</Link></li>
-            <li><Link to="/terms-and-conditions">Condiciones de Venta</Link></li>
+            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+            <li><Link to="/terms-and-conditions">Terms and conditions</Link></li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 Golden Dram. Todos los derechos reservados.</p>
+        <p>© 2025 Golden Dram</p>
       </div>
     </footer>
   );
