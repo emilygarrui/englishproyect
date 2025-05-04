@@ -4,116 +4,98 @@ import "./termsandconditions.css";
 const TermsAndConditions = () => {
   return (
     <div className="terms-container">
-      <h1>Términos y Condiciones</h1>
+      <h1>Terms and Conditions</h1>
 
       <section>
-        <h2>1. Generalidades</h2>
+        <h2>1. General Terms</h2>
         <p>
-          Las presentes condiciones generales de venta regulan todas las
-          relaciones entre la entidad <strong>Golden Dram</strong> y sus
-          clientes. <strong>Golden Dram</strong> puede modificar ocasionalmente
-          estas condiciones, por lo que se recomienda su lectura periódica.
+          These general sales conditions govern all relationships between the entity
+          <strong>Golden Dram</strong> and its customers. <strong>Golden Dram</strong>
+          may occasionally modify these terms, so it is recommended to review them periodically.
         </p>
       </section>
 
       <section>
-        <h2>2. Hacer un pedido</h2>
+        <h2>2. Placing an Order</h2>
         <p>
-          Los pedidos se realizarán a través de nuestra página web, operativa
-          todos los meses del año, las 24 horas del día.
+          Orders are to be placed through our website, which is available 24 hours a day, every month of the year.
         </p>
       </section>
 
       <section>
-        <h2>3. Confirmación del pedido</h2>
+        <h2>3. Order Confirmation</h2>
         <p>
-          Una vez realizado el pedido, <strong>Golden Dram</strong> confirmará
-          el mismo a través de correo electrónico. El pedido no estará
-          confirmado hasta que se realice el pago.
+          Once the order is placed, <strong>Golden Dram</strong> will confirm it via email. The order will not be considered confirmed until payment has been made.
         </p>
       </section>
 
       <section>
-        <h2>4. Entrega de los pedidos</h2>
+        <h2>4. Order Delivery</h2>
         <p>
-          Las entregas se realizarán en la dirección indicada al momento de la
-          compra. Si el pedido llegara dañado o incompleto, el cliente podrá
-          reclamar dentro de los dos días siguientes a la recepción.
+          Deliveries will be made to the address provided at the time of purchase. If the order arrives damaged or incomplete, the customer may file a claim within two days of receipt.
         </p>
       </section>
 
       <section>
-        <h2>5. Plazos de entrega</h2>
+        <h2>5. Delivery Times</h2>
         <p>
-          Las entregas se realizarán en los plazos indicados en la oferta.
-          <strong>Golden Dram</strong> no será responsable por retrasos debidos
-          a fuerza mayor.
+        Deliveries will be made within the timeframes indicated in the offer. <strong>Golden Dram</strong> is not responsible for delays due to force majeure.
         </p>
       </section>
 
       <section>
-        <h2>6. Precios</h2>
+        <h2>6. Prices</h2>
         <p>
-          Los precios se indican en euros e incluyen el IVA. Los gastos de
-          envío corren por cuenta del comprador y se informarán antes de
-          confirmar la compra.
+        Prices are indicated in euros and include VAT. Shipping costs are the buyer's responsibility and will be informed before confirming the purchase.
         </p>
       </section>
 
       <section>
-        <h2>7. Modalidad de pago</h2>
+        <h2>7. Payment Methods</h2>
         <p>
-          Se aceptan pagos mediante tarjeta de crédito/débito, transferencia
-          bancaria y PayPal.
+        We accept payments via credit/debit card, bank transfer, and PayPal.
         </p>
       </section>
 
       <section>
-        <h2>8. Información sobre los productos</h2>
+        <h2>8. Product Information</h2>
         <p>
-          <strong>Golden Dram</strong> trabaja con materias primas de alta
-          calidad y sigue un riguroso control en la producción.
+        <strong>Golden Dram</strong> works with high-quality raw materials and follows a rigorous control process in production.
         </p>
       </section>
 
       <section>
-        <h2>9. Disponibilidad</h2>
+        <h2>9. Availability</h2>
         <p>
-          En caso de falta de stock, se informará al cliente con un nuevo plazo
-          de entrega o se procederá al reembolso si el cliente lo solicita.
+        In case of stock shortages, the customer will be informed with a new delivery date or a refund will be issued if the customer requests it.
         </p>
       </section>
 
       <section>
-        <h2>10. Garantía</h2>
+        <h2>10. Warranty</h2>
         <p>
-          La garantía cubre defectos ocultos en los productos. No cubre daños
-          causados por un uso inadecuado.
+        The warranty covers hidden defects in the products. It does not cover damages caused by improper use.
         </p>
       </section>
 
       <section>
-        <h2>11. Devoluciones</h2>
+        <h2>11. Returns</h2>
         <p>
-          Solo se aceptarán devoluciones por productos defectuosos. El cliente
-          podrá elegir entre la sustitución del producto o el reembolso del
-          importe pagado.
+        Returns will only be accepted for defective products. The customer may choose between a replacement of the product or a refund of the amount paid.
         </p>
       </section>
 
       <section>
-        <h2>12. Anulación de pedido</h2>
+        <h2>12. Order Cancellation</h2>
         <p>
-          En pedidos bajo demanda, no se aceptarán anulaciones. Para otros
-          pedidos, la anulación requerirá conformidad por escrito.
+        For made-to-order products, cancellations will not be accepted. For other orders, cancellations require written consent.
         </p>
       </section>
 
       <section>
-        <h2>13. Litigios y responsabilidades</h2>
+        <h2>13. Disputes and Liabilities</h2>
         <p>
-          Cualquier litigio será resuelto en los tribunales competentes según
-          la legislación vigente.
+        Any dispute will be resolved in the competent courts according to the current legislation.
         </p>
       </section>
     </div>

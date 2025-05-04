@@ -4,102 +4,83 @@ import "./privacypolicy.css";
 const PrivacyPolicy = () => {
   return (
     <div className="privacy-container">
-      <h1>Política de Privacidad y Cookies</h1>
+      <h1>Privacy Policy</h1>
 
       <section>
         <p>
-          En <strong>Golden Dram</strong>, respetamos tu privacidad y estamos
-          comprometidos con la protección de los datos personales que nos
-          proporcionas a través de nuestra tienda online de licores. Esta
-          política de privacidad describe cómo recogemos, utilizamos y
-          compartimos tus datos personales, así como el uso de cookies en
-          nuestro sitio web.
+          At <strong>Golden Dram</strong>, we respect your privacy and are fully committed 
+          to protecting the personal data you provide through our online liquor store. This privacy policy outlines how we collect, use, and share your personal information, as well as how we use cookies on our website.
         </p>
         <p>
-          Cumplimos con el Reglamento General de Protección de Datos (RGPD) y
-          la Ley Orgánica de Protección de Datos y Garantía de Derechos
-          Digitales (LOPDGDD).
+          We comply with the General Data Protection Regulation (GDPR) and the Spanish Organic Law on Data Protection and Guarantee of Digital Rights (LOPDGDD).
         </p>
       </section>
 
       <section>
-        <h2>1. Responsable del Tratamiento de Datos</h2>
+        <h2>1. Data Controller</h2>
         <p>
-          <strong>Responsable:</strong> Emily García Ruiz <br />
-          <strong>Domicilio:</strong> C/ El Rincón <br />
-          <strong>Correo electrónico:</strong> info@goldendram.es <br />
-          <strong>Teléfono:</strong> 666 666 666
+          <strong>Controller:</strong> Emily García Ruiz <br />
+          <strong>Address:</strong> C/ El Rincón <br />
+          <strong>Email:</strong> info@goldendram.es <br />
+          <strong>Phone:</strong> 666 666 666
         </p>
       </section>
 
       <section>
-        <h2>2. Datos que Recopilamos</h2>
-        <h3>a) Datos proporcionados directamente por los usuarios</h3>
+        <h2>2. Data We Collect</h2>
+        <h3>a) Data provided directly by users</h3>
         <p>
-          Información de registro y cuenta: Nombre, apellidos, correo
-          electrónico, dirección postal, número de teléfono, datos de
-          facturación y de envío.
+         Account and registration information: First and last name, email address, postal address, phone number, billing and shipping details.
         </p>
         <p>
-          Datos de pago: Información gestionada directamente por proveedores de
-          pago seguros, sin almacenamiento en nuestros servidores.
+          Payment information: Managed directly by secure payment providers; we do not store this information on our servers.
         </p>
 
-        <h3>b) Datos recopilados automáticamente</h3>
+        <h3>b) Data collected automatically</h3>
         <p>
-          Datos de navegación: Dirección IP, tipo de navegador, sistema
-          operativo, páginas vistas y duración de la visita.
+          Browsing data: IP address, browser type, operating system, pages visited, and duration of visit.
         </p>
         <p>
-          Cookies: Ver la sección específica sobre el uso de cookies más
-          adelante.
+          Cookies: Please refer to the specific cookies section below.
         </p>
       </section>
 
       <section>
-        <h2>3. Finalidad del Tratamiento de Datos</h2>
+        <h2>3. Purpose of Data Processing</h2>
         <ul>
-          <li>Gestión de pedidos y envíos.</li>
-          <li>Comunicaciones sobre pedidos y servicios.</li>
-          <li>Marketing y envío de promociones (previo consentimiento).</li>
-          <li>Mejora de servicios y experiencia de usuario.</li>
-          <li>Cumplimiento de obligaciones legales y fiscales.</li>
+          <li>Order and shipping management.</li>
+          <li>Communication regarding orders and services.</li>
+          <li>Marketing and promotional communications (with prior consent).</li>
+          <li>Service improvement and user experience enhancement.</li>
+          <li>Compliance with legal and tax obligations.</li>
         </ul>
       </section>
 
       <section>
-        <h2>4. Seguridad de tus Datos</h2>
+        <h2>4. Data Security</h2>
         <p>
-          Implementamos medidas técnicas y organizativas para proteger los
-          datos personales frente a accesos no autorizados, pérdidas o
-          alteraciones. Utilizamos certificados SSL y servidores seguros.
+          We implement technical and organizational measures to safeguard personal data against unauthorized access, loss, or alteration. Our website uses SSL certificates and secure servers.
         </p>
       </section>
 
       <section>
-        <h2>5. Tus Derechos</h2>
+        <h2>5. Your Rights</h2>
         <p>
-          Tienes derecho a acceder, rectificar, eliminar, oponerte y solicitar
-          la portabilidad de tus datos. Para ejercer estos derechos, contáctanos
-          en <strong>info@goldendram.es</strong>.
+          You have the right to access, rectify, delete, object to, and request portability of your data. To exercise these rights, please contact us at: <strong>info@goldendram.es</strong>.
         </p>
       </section>
 
       <section>
-        <h2>6. Política de Cookies</h2>
+        <h2>6. Cookie Policy</h2>
         <p>
-          Utilizamos cookies para mejorar la experiencia del usuario y analizar
-          el tráfico. Puedes gestionar o desactivar las cookies en la
-          configuración de tu navegador.
+          We use cookies to enhance user experience and analyze website traffic. You can manage or disable cookies through your browser settings.
         </p>
       </section>
 
       <section>
-        <h2>7. Cambios en la Política de Privacidad</h2>
+        <h2>7. Changes to the Privacy and Cookie Policy</h2>
         <p>
-          <strong>Golden Dram</strong> se reserva el derecho a modificar esta
-          política de privacidad y cookies para adaptarse a cambios legislativos
-          o mejoras en nuestros servicios.
+          <strong>Golden Dram</strong> reserves the right to modify this privacy and cookie policy to reflect legal updates or improvements to our services.
         </p>
       </section>
     </div>
@@ -107,4 +88,3 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
-

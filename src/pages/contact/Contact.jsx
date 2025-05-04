@@ -23,14 +23,14 @@ function Contact() {
   return (
     <div className="contact-page">
       <div className="contact-form-container">
-        <h1>Contacta con nosotros</h1>
+        <h1>Contact us</h1>
         <p>¿Tienes alguna duda? Escríbenos</p>
 
         <form onSubmit={handleSubmit} className="contact-form">
           <input
             type="text"
             name="nombre"
-            placeholder="Tu nombre"
+            placeholder="Name"
             value={formData.nombre}
             onChange={handleChange}
             required
@@ -39,7 +39,7 @@ function Contact() {
           <input
             type="email"
             name="email"
-            placeholder="Tu email"
+            placeholder="E-mail"
             value={formData.email}
             onChange={handleChange}
             required
@@ -47,13 +47,13 @@ function Contact() {
 
           <textarea
             name="mensaje"
-            placeholder="Escribe tu consulta  "
+            placeholder="Submit Your Inquiry  "
             value={formData.mensaje}
             onChange={handleChange}
             required
           />
 
-          <button type="submit">Enviar mensaje</button>
+          <button type="submit">Send</button>
         </form>
       </div>
 

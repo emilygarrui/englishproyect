@@ -5,8 +5,8 @@ import "./AlcoholBrandList.css";
 function AlcoholBrandList() {
   return (
     <div className="brand-list">
-      <h1>Marcas de Whisky</h1>
-      <p>Descubre algunas de las marcas más reconocidas de whisky a nivel mundial.</p>
+      <h1>Recognized Brands</h1>
+      <p>Explore a selection of the world's most acclaimed whisky brands</p>
 
       <div className="brand-grid">
         {whiskyBrands.map((brand) => (
